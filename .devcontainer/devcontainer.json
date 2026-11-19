@@ -1,0 +1,21 @@
+{
+  "name": "Lab 1 \u2014 Array statistics and classification",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "root",
+  "postCreateCommand": "make",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.associations": {
+          "*.s": "asm"
+        },
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "files.trimTrailingWhitespace": true
+      }
+    }
+  }
+}

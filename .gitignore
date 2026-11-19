@@ -1,0 +1,5 @@
+build/
+*.o
+core
+core.*
+.gdb_history
